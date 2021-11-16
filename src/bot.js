@@ -20,7 +20,7 @@ var quotes = [
 'Treat your men as you would your own beloved sons. And they will follow you into the deepest valley.',
 'Even the finest sword plunged into salt water will eventually rust.',
 'Move swift as the Wind and closely-formed as the Wood. Attack like the Fire and be still as the Mountain.',
-'When you surround an army, leave an outlet free. Do not press a desperate foe too hard.',,
+'When you surround an army, leave an outlet free. Do not press a desperate foe too hard.',
 'Opportunities multiply as they are seized.',
 'There are not more than five musical notes, yet the combinations of these five give rise to more melodies than can ever be heard.',
 'There are not more than five primary colours, yet in combination they produce more hues than can ever been seen.',
@@ -32,7 +32,7 @@ var quotes = [
 'Know yourself and you will win all battles',
 'To win one hundred victories in one hundred battles is not the acme of skill. To subdue the enemy without fighting is the acme of skill.',
 'So in war, the way is to avoid what is strong, and strike at what is weak.',
-'Be extremely subtle even to the point of formlessness. Be extremely mysterious even to the point of soundlessness. Thereby you can be the director of the opponent's fate.',
+'Be extremely subtle even to the point of formlessness. Be extremely mysterious even to the point of soundlessness. Thereby you can be the director of the opponents fate.',
 'When strong, avoid them. If of high morale, depress them. Seem humble to fill them with conceit. If at ease, exhaust them. If united, separate them. Attack their weaknesses. Emerge to their surprise.',
 'Build your opponent a golden bridge to retreat across.',
 'What the ancients called a clever fighter is one who not only wins, but excels in winning with ease.',
@@ -41,7 +41,7 @@ var quotes = [
 'Rouse him, and learn the principle of his activity or inactivity. Force him to reveal himself, so as to find out his vulnerable spots.',
 'One may know how to conquer without being able to do it. ',
 'One mark of a great soldier is that he fights on his own terms or fights not at all.',
-'You have to believe in yourself. ',
+'You have to believe in yourself.',
 'If you know the enemy and know yourself, your victory will not stand in doubt; if you know Heaven and know Earth, you may make your victory complete.',
 'If the mind is willing, the flesh could go on and on without many things.',
 'He who is prudent and lies in wait for an enemy who is not, will be victorious.',
@@ -50,7 +50,7 @@ var quotes = [
 'Attack is the secret of defense; defense is the planning of an attack.',
 'Anger may in time change to gladness; vexation may be succeeded by content. But a kingdom that has once been destroyed can never come again into being; nor can the dead ever be brought back to life.',
 'There are roads which must not be followed, armies which must not be attacked, towns which must not be besieged, positions which must not be contested, commands of the sovereign which must not be obeyed.',
-'When one treats people with benevolence, justice, and righteoousness, and reposes confidence in them, the army will be united in mind and all will be happy to serve their leaders'.',
+'When one treats people with benevolence, justice, and righteoousness, and reposes confidence in them, the army will be united in mind and all will be happy to serve their leaders',
 'Great results, can be achieved with small forces.',
 'Attack him where he is unprepared, appear where you are not expected.',
 'Pretend inferiority and encourage his arrogance.',
@@ -178,7 +178,7 @@ var quotes = [
 'These military devices, leading to victory, must not be divulged beforehand.',
 'Regard your soldiers as your children, and they will follow you into the deepest valleys; look upon them as your own beloved sons, and they will stand by you even unto death.',
 'He wins his battles by making no mistakes. Making no mistakes is what establishes the certainty of victory, for it means conquering an enemy that is already defeated.'
-]
+];
 
 var count = Math.floor(Math.random() * 174);
 
