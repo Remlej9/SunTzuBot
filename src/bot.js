@@ -184,7 +184,7 @@ var count = Math.floor(Math.random() * 174);
 
 client.on("ready", () => {
 	console.log("Ready for some lit quotes?");
-	console.log("19:45:45 Every day!");
+	console.log("08:00:00 Every day!");
 	console.log("Be there!");
 	client.user.setActivity('great quotes', { type: 'WATCHING' })
   .then(presence => console.log(`Activity set to ${presence.activities[0].name}`))
@@ -193,7 +193,7 @@ client.on("ready", () => {
 
 
 //45 45 17 * * *
-const job = schedule.scheduleJob('30 * * * * *', function(){
+const job = schedule.scheduleJob('00 00 06 * * *', function(){
 	count = Math.floor(Math.random() * 174);
 	client.channels.cache.get('826133568148602931').send(quotes[count] + "  -  **Sun Tzu, The Art Of War**")
 	.then(message => console.log(`Sent quote`))
