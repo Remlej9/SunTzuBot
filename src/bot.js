@@ -193,7 +193,7 @@ client.on("ready", () => {
 
 client.on('message', (message) => {
 	if (message.mentions.users.has(client.user.id) && !message.author.bot) {
-	message.reply(`Hype!!!`)
+	message.send(`Hype!!!`)
 	return
 	};
 });
