@@ -187,22 +187,25 @@ client.on("ready", () => {
 	console.log("08:00:00 Every day!");
 	console.log("Be there!");
 	client.user.setActivity('great quotes', { type: 'WATCHING' })
+	client.channels.cache.get('910244563703193621').send("Just to get you started, here\'s my first quote:\\n" + quotes[count] + "  -  **Sun Tzu, The Art Of War**")
   .then(presence => console.log(`Activity set to ${presence.activities[0].name}`))
   .catch(console.error);
 });
 
+/*
 client.on('message', (message) => {
 	if (message.mentions.users.has(client.user.id) && !message.author.bot) {
 	message.reply(`Hype!!!`)
 	return
 	};
 });
+*/
 
 
 //45 45 17 * * *
 const job = schedule.scheduleJob('00 00 06 * * *', function(){
 	count = Math.floor(Math.random() * 174);
-	client.channels.cache.get('826133568148602931').send(quotes[count] + "  -  **Sun Tzu, The Art Of War**")
+	client.channels.cache.get('910244563703193621').send(quotes[count] + "  -  **Sun Tzu, The Art Of War**")
 	.then(message => console.log(`Sent quote`))
 	.catch(console.error);
 });
