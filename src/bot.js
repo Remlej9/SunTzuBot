@@ -191,6 +191,13 @@ client.on("ready", () => {
   .catch(console.error);
 });
 
+client.on('message', (message) => {
+	if (message.mentions.users.has(client.user.id) && !message.author.bot) {
+	message.reply(`Hype!!!`)
+	return
+	};
+});
+
 
 //45 45 17 * * *
 const job = schedule.scheduleJob('00 00 06 * * *', function(){
